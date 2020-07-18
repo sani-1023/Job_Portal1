@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "602653437691",
+    "firebase_url": "https://expanse-manager-13202.firebaseio.com",
+    "project_id": "expanse-manager-13202",
+    "storage_bucket": "expanse-manager-13202.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:602653437691:android:8cec8f243f03bc0afa8a5e",
+        "android_client_info": {
+          "package_name": "com.example.expansemanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "602653437691-bq1roba115ag7v7mqo158r4h1odg2oak.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.expansemanager",
+            "certificate_hash": "5b39f170c6200bb836bee9443216b425bb7169d5"
+          }
+        },
+        {
+          "client_id": "602653437691-ia1b532aed1ecqni6kton9ldo0mruq6n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmvKKtqaAPmRgtK4TA7zAaUKR7GuGviPg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "602653437691-ia1b532aed1ecqni6kton9ldo0mruq6n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
