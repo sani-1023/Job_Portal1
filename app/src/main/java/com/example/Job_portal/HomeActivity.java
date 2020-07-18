@@ -24,7 +24,7 @@ public class HomeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
-        btnalljob = findViewById(R.id.btn_alljob);
+        btnalljob = findViewById(R.id.btn_alljob) ;
         btnpostob = findViewById(R.id.btn_postjob);
 
         toolbar = findViewById(R.id.toolbar_home);
