@@ -37,15 +37,18 @@
         </LinearLayout>
 
 
-        <com.getbase.floatingactionbutton.FloatingActionButton
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_add"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|end"
             android:layout_marginRight="25dp"
             android:layout_marginBottom="25dp"
-            app:fabSize="normal"
-            tools:src="@drawable/ic_fab"
-            android:id="@+id/fab_add"/>
+            android:backgroundTint="#BFB345"
+            android:src="@drawable/ic_fab"
+            app:backgroundTint="#DFE4E3D4"
+            app:fabSize="auto"
+            tools:visibility="visible" />
 
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 </LinearLayout>

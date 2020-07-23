@@ -15,6 +15,7 @@
         <activity android:name="com.example.Job_portal.HomeActivity" />
         <activity android:name="com.example.Job_portal.ResetActivity" />
         <activity android:name="com.example.Job_portal.RegistrationActivity" />
+
         <activity android:name="com.example.Job_portal.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
