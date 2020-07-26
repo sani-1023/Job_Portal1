@@ -34,7 +34,7 @@ public class InsertJobPostActivity extends AppCompatActivity {
 
     //firebase
     private FirebaseAuth mauth;
-    private DatabaseReference mJobPost;
+    private DatabaseReference mJobPost,mpublicjobPost;
 
 
 
@@ -52,6 +52,7 @@ public class InsertJobPostActivity extends AppCompatActivity {
         String uId=muser.getUid();
 
         mJobPost= FirebaseDatabase.getInstance().getReference().child("Job Post").child(uId);
+        mpublicjobPost=FirebaseDatabase.getInstance().getReference().child("Public Database");
 
         Insertjob();
 
@@ -96,6 +97,7 @@ public class InsertJobPostActivity extends AppCompatActivity {
                 data data1=new data(title ,descripton,date,salary,skill,id);
 
                 mJobPost.child(id).setValue(data1);
+                mpublicjobPost.child(id).setValue(data1);
 
                 Toast.makeText(getApplicationContext(), "Successful....", Toast.LENGTH_SHORT).show();
                 startActivity(new Intent(getApplicationContext(),InsertJobPostActivity.class));

@@ -10,6 +10,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
+import androidx.appcompat.widget.Toolbar;
 
 import com.example.Job_portal.R;
 import com.example.Job_portal.model.data;
@@ -27,6 +28,7 @@ public class PostJobActivity extends AppCompatActivity {
     private RecyclerView recyclerView;
     private FirebaseAuth mAuth;
     private DatabaseReference JobPostDatabase;
+    private Toolbar toolbar;
 
 
 
@@ -35,7 +37,11 @@ public class PostJobActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_post_job);
 
+
         fabBtn=findViewById(R.id.fab_add);
+        toolbar=findViewById(R.id.toolbar_postjob);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setTitle("Your Job");
 
         mAuth=FirebaseAuth.getInstance();
         FirebaseUser mUser=mAuth.getCurrentUser();

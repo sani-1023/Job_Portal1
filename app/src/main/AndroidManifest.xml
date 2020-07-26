@@ -10,13 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name="com.example.Job_portal.InsertJobPostActivity"></activity>
-        <activity android:name="com.example.Job_portal.PostJobActivity" />
         <activity android:name="com.example.Job_portal.AllJobActivity" />
         <activity android:name="com.example.Job_portal.HomeActivity" />
         <activity android:name="com.example.Job_portal.ResetActivity" />
         <activity android:name="com.example.Job_portal.RegistrationActivity" />
+        <activity android:name="com.example.Job_portal.PostJobActivity"/>
 
         <activity android:name="com.example.Job_portal.MainActivity">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
