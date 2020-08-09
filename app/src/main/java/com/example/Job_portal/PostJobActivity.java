@@ -43,6 +43,9 @@ public class PostJobActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
         getSupportActionBar().setTitle("Your Job");
 
+        getSupportActionBar().setHomeButtonEnabled(true);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         mAuth=FirebaseAuth.getInstance();
         FirebaseUser mUser=mAuth.getCurrentUser();
         String uId = mUser.getUid();

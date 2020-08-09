@@ -33,6 +33,9 @@ public class AllJobActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
         getSupportActionBar().setTitle("All Jobs");
 
+        getSupportActionBar().setHomeButtonEnabled(true);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
 
         mAuth=FirebaseAuth.getInstance();
       //  FirebaseUser mUser=mAuth.getCurrentUser();
